@@ -42,6 +42,10 @@ i2c:
    sda: 21
    scl: 22
    scan: true
+-  id: bus_b
+   sda: GPIO26
+   scl: GPIO27
+   scan: true
 
 light:
   - platform: status_led
